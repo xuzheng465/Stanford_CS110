@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>Reuters - Top News</title>
+      <link>http://feeds.reuters.com/reuters/topNews</link>
+    </item>
+    <item>
+      <title>Reuters - United States</title>
+      <link>http://feeds.reuters.com/Reuters/domesticNews</link>
+    </item>
+    <item>
+      <title>Reuters - Politics</title>
+      <link>http://feeds.reuters.com/Reuters/PoliticsNews</link>
+    </item>
+    <item>
+      <title>Reuters - Politics</title>
+      <link>http://feeds.reuters.com/Reuters/PoliticsNews</link>
+    </item>
+    <item>
+      <title>Reuters - Science</title>
+      <link>http://feeds.reuters.com/reuters/scienceNews</link>
+    </item>
+  </channel>
+</rss>

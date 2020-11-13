@@ -1,0 +1,59 @@
+[DEFAULT]
+executables = [imdbtest, search]
+class = OutputDiffSoln
+timeout = 10
+
+[01-BuildClean]
+class = BuildClean
+
+[11-IMDBTest-01]
+command = $imdbtest "Bogus Actor"
+description = confirming imdbtest output matches ours exactly for missing actor
+
+[12-IMDBTest-02]
+command = $imdbtest "Meryl Stre"
+description = confirming imdbtest output matches ours exactly for missing actor whose name is a prefix a real name
+
+[13-IMDBTest-03]
+command = $imdbtest "Meryl Streep"
+description = confirming imdbtest output matches ours exactly for actor with name of length 0 modulo 4
+
+[14-IMDBTest-04]
+command = $imdbtest "Ewan McGregor"
+description = confirming imdbtest output matches ours exactly for actor with name of length 1 modulo 4
+
+[15-IMDBTest-05]
+command = $imdbtest "Dustin Hoffman"
+description = confirming imdbtest output matches ours exactly for actor with name of length 2 modulo 4
+
+[16-IMDBTest-06]
+command = $imdbtest "Red Buttons"
+description = confirming imdbtest output matches ours exactly for actor with name of length 3 modulo 4
+
+[21-SixDegree-01]
+command = $search "Meryl Streep" "Jack Nicholson (I)"
+description = confirming search finds very obvious paths of length 1 very quickly
+postfilter = normalize
+
+[22-SixDegree-02]
+command = $search "Jack Nicholson (I)" "Meryl Streep"
+description = confirming search finds very obvious paths of length 1 very quickly (regardless of optimal direction)
+postfilter = normalize
+
+[23-SixDegree-03]
+command = $search "Mary Tyler Moore" "Red Buttons"
+description = confirming search finds very obvious paths of length 2 quickly
+postfilter = normalize
+
+[24-SixDegree-05]
+command = $search "Jerry Cain" "Kevin Bleyer"
+description = confirming search finds paths of length 3 between two obscure actors
+postfilter = normalize
+timeout = 20
+
+[Custom]
+class = CustomOutputDiffSoln
+postfilter = normalize
+timeout = None
+
+

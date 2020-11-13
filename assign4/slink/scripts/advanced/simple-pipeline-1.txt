@@ -1,0 +1,6 @@
+# Trace: simple-pipeline-1
+# ------------------------
+# Exercises support for pipes via a foreground pipeline with
+# just two processes.
+/bin/echo -e stsh> /bin/echo abc \174 ./conduit --count 3
+/bin/echo abcdefghij | ./conduit --count 3

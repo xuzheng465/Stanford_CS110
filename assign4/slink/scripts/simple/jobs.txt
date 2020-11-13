@@ -1,0 +1,12 @@
+# Trace: jobs
+# -----------
+# Exercises the jobs builtin.
+/bin/echo -e stsh> ./spin 2 \046
+./spin 2 &
+/bin/echo -e stsh> ./spin 10 \046
+./spin 10 &
+/bin/echo stsh> jobs
+jobs
+SLEEP 5
+/bin/echo stsh> jobs
+jobs

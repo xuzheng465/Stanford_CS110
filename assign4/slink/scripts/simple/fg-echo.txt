@@ -1,0 +1,6 @@
+# Trace: fg-echo
+# --------------
+# Exercises support for trivial foreground jobs.
+/bin/echo -e stsh> /bin/echo hello happy CS110 students!
+/bin/echo hello happy CS110 students!
+

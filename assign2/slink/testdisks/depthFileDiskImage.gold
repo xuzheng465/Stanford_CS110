@@ -1,0 +1,29 @@
+Disk -ip is 10240000 bytes (10000 KB)
+Superblock s_isize 225
+Superblock s_fsize 20000
+Superblock s_nfree 62
+Superblock s_ninode 0
+Inode 1 mode 0xc1c0 size 64 checksum 4898d491460fdc9f49ead1bf5becd14107cb4029
+Inode 2 mode 0xc1c0 size 48 checksum 86651fa5aaae7e128657a9403599cd4e8a0f45e0
+Inode 3 mode 0xc1c0 size 48 checksum f3fbca560047a6b7b51e7cb7b1d51f15cd89da26
+Inode 4 mode 0xc1c0 size 48 checksum 908cca460fbb1ae1a71dbab583d5814e2b25fb14
+Inode 5 mode 0xc1c0 size 48 checksum c490fe670f52df0d3d0cd05dc701740b4fc58201
+Inode 6 mode 0xc1c0 size 48 checksum 76acbab877968f70f8e99cac1f2dd56c247017a4
+Inode 7 mode 0xc1c0 size 48 checksum a039e64ceb53bb1bae12b6e68196e5ef57f254d7
+Inode 8 mode 0xc1c0 size 48 checksum 1d7b905a9bbecce038023e6f0b8c08c8a43ebc09
+Inode 9 mode 0xc1c0 size 48 checksum 1dd7c93c72b8327015c4180b6ef1ce140bbfe916
+Inode 10 mode 0xc1c0 size 48 checksum 8f4491e4edd04052d16cc00bad57097807b5b824
+Inode 11 mode 0xc1c0 size 32 checksum 15d8f4c7d2039f9cecf8d4bf971615e47aa30afa
+Inode 12 mode 0x81ff size 512 checksum 0dcce65f8d8024ccc3099cb3274ceea954c00205
+Path / 1 mode 0xc1c0 size 64 checksum 4898d491460fdc9f49ead1bf5becd14107cb4029
+Path /level1 2 mode 0xc1c0 size 48 checksum 86651fa5aaae7e128657a9403599cd4e8a0f45e0
+Path /level1/level2 3 mode 0xc1c0 size 48 checksum f3fbca560047a6b7b51e7cb7b1d51f15cd89da26
+Path /level1/level2/level3 4 mode 0xc1c0 size 48 checksum 908cca460fbb1ae1a71dbab583d5814e2b25fb14
+Path /level1/level2/level3/level4 5 mode 0xc1c0 size 48 checksum c490fe670f52df0d3d0cd05dc701740b4fc58201
+Path /level1/level2/level3/level4/level5 6 mode 0xc1c0 size 48 checksum 76acbab877968f70f8e99cac1f2dd56c247017a4
+Path /level1/level2/level3/level4/level5/level6 7 mode 0xc1c0 size 48 checksum a039e64ceb53bb1bae12b6e68196e5ef57f254d7
+Path /level1/level2/level3/level4/level5/level6/level7 8 mode 0xc1c0 size 48 checksum 1d7b905a9bbecce038023e6f0b8c08c8a43ebc09
+Path /level1/level2/level3/level4/level5/level6/level7/level8 9 mode 0xc1c0 size 48 checksum 1dd7c93c72b8327015c4180b6ef1ce140bbfe916
+Path /level1/level2/level3/level4/level5/level6/level7/level8/level9 10 mode 0xc1c0 size 48 checksum 8f4491e4edd04052d16cc00bad57097807b5b824
+Path /level1/level2/level3/level4/level5/level6/level7/level8/level9/level10 11 mode 0xc1c0 size 32 checksum 15d8f4c7d2039f9cecf8d4bf971615e47aa30afa
+Path /perfect_file 12 mode 0x81ff size 512 checksum 0dcce65f8d8024ccc3099cb3274ceea954c00205

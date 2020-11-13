@@ -1,0 +1,6 @@
+# Trace: simple-direction-2
+# -------------------------
+# Ensures that input redirection into a single process works properly.
+/bin/echo -e stsh> ./conduit --count 4 \074 /usr/include/stdint.h
+./conduit --count 4 < /usr/include/stdint.h
+

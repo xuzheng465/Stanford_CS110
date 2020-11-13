@@ -1,0 +1,13 @@
+# Trace: robustness-3
+# -------------------
+# Ensures a reasonable amount of error checking at the command line.
+/bin/echo -e stsh> ./spin 5 \046
+./spin 5 &
+/bin/echo -e stsh> fg 1
+fg 1
+/bin/echo -e stsh> bg 1
+bg 1
+/bin/echo -e stsh> fg 2
+fg 2
+/bin/echo -e stsh> bg 1400
+bg 1400

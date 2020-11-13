@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>World: World News, International News, Foreign Reporting - The Washington Post</title>
+      <link>http://feeds.washingtonpost.com.cs110.jerrycainjr.com/rss/world</link>
+    </item>
+    <item>
+      <title>Los Angeles Times - Top News</title>
+      <link>http://feeds.latimes.com.cs110.jerrycainjr.com/latimes/news</link>
+    </item>
+    <item>
+      <title>Nation &amp; World - chicagotribune.com</title>
+      <link>http://feeds.chicagotribune.com.cs110.jerrycainjr.com/chicagotribune/news/nationworld</link>
+    </item>
+    <item>
+      <title>Top Stories - Boston Globe</title>
+      <link>http://feeds.boston.com.cs110.jerrycainjr.com/boston/topstories</link>
+    </item>
+    <item>
+      <title>National News - New York Post</title>
+      <link>http://www.nypost.com.cs110.jerrycainjr.com/rss/news.xml</link>
+    </item>
+    <item>
+      <title>Breaking News - Providence Journal</title>
+      <link>http://news.providencejournal.com.cs110.jerrycainjr.com/breaking-news/index.xml</link>
+    </item>
+    <item>
+      <title>Latest Top Stories - Miami Herald</title>
+      <link>http://www.miamiherald.com.cs110.jerrycainjr.com/news/latest-top-stories/index.xml</link>
+    </item>
+    <item>
+      <title>Top News - Columbus Dispatch</title>
+      <link>http://www.dispatch.com.cs110.jerrycainjr.com/content/syndication/news_national.xml</link>
+    </item>
+    <item>
+      <title>National News - Minneapolis &amp; St. Paul Star Tribune</title>
+      <link>http://www.startribune.com.cs110.jerrycainjr.com/nation/index.rss2</link>
+    </item>
+    <item>
+      <title>National News - San Francisco Chronicle</title>
+      <link>http://www.sfgate.com.cs110.jerrycainjr.com/rss/feed/National-News-RSS-Feed-435.php</link>
+    </item>
+    <item>
+      <title>Nation &amp; World - Seattle Times</title>
+      <link>http://seattletimes.com.cs110.jerrycainjr.com/rss/nationworld.xml</link>
+    </item>
+  </channel>
+</rss>

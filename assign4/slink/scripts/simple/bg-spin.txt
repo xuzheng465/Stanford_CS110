@@ -1,0 +1,6 @@
+# Trace: bg-spin
+# --------------
+# Exercises support for trivial background jobs.
+/bin/echo -e stsh> ./spin 2 \046
+./spin 2 &
+SLEEP 5

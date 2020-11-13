@@ -1,0 +1,11 @@
+# Trace: simple-direction-1
+# -------------------------
+# Ensures that output redirection from a single process works properly.
+/bin/echo -e stsh> rm -f simple-redirection-1.txt
+rm -f simple-redirection-1.txt
+/bin/echo -e stsh> cat /usr/include/stdint.h \076 simple-redirection-1.txt
+cat /usr/include/stdint.h > simple-redirection-1.txt
+/bin/echo -e stsh> cat simple-redirection-1.txt
+cat simple-redirection-1.txt
+/bin/echo -e stsh> rm -f simple-redirection-1.txt
+rm -f simple-redirection-1.txt

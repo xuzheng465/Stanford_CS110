@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>Reuters - Top News</title>
+      <link>http://feeds.reuters.com/reuters/topNews</link>
+    </item>
+    <item>
+      <title>Reuters - United States</title>
+      <link>http://feeds.reuters.com/Reuters/domesticNews</link>
+    </item>
+    <item>
+      <title>Reuters - Politics</title>
+      <link>http://feeds.reuters.com/Reuters/PoliticsNews</link>
+    </item>
+    <item>
+      <title>Reuters - Politics</title>
+      <link>http://feeds.reuters.com/Reuters/PoliticsNews</link>
+    </item>
+    <item>
+      <title>Reuters - Science</title>
+      <link>http://feeds.reuters.com/reuters/scienceNews</link>
+    </item>
+    <item>
+      <title>BBC - Home Page</title>
+      <link>http://feeds.bbci.co.uk/news/rss.xml</link>
+    </item>
+    <item>
+      <title>BBC - World</title>
+      <link>http://feeds.bbci.co.uk/news/world/rss.xml</link>
+    </item>
+    <item>
+      <title>BBC - Politics</title>
+      <link>http://feeds.bbci.co.uk/news/politics/rss.xml</link>
+    </item>
+    <item>
+      <title>BBC - Education &amp; Family</title>
+      <link>http://feeds.bbci.co.uk/news/education/rss.xml</link>
+    </item>
+    <item>
+      <title>Telegraph - Breaking News</title>
+      <link>http://www.telegraph.co.uk/news/rss.xml</link>
+    </item>
+    <item>
+      <title>Telegraph - Arts</title>
+      <link>http://www.telegraph.co.uk/culture/rss.xml</link>
+    </item>
+    <item>
+      <title>Telegraph - Education</title>
+      <link>http://www.telegraph.co.uk/education/rss.xml</link>
+    </item>
+    <item>
+      <title>Telegraph - Sport</title>
+      <link>http://www.telegraph.co.uk/sport/rss.xml</link>
+    </item>
+  </channel>
+</rss>

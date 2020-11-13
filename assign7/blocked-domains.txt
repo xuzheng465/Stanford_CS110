@@ -1,0 +1,8 @@
+berkeley.edu
+(.*)\.berkeley.edu
+(.*)\.ca
+(.*)\.fr
+(.*)\.gov
+microsoft.com
+(.*)\.microsoft.com
+blacklisted.cs110-proxy.jerrycainjr.com

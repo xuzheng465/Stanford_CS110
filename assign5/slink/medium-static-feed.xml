@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<rss version="2.0">
+  <channel>
+    <item>
+      <title>World: World News, International News, Foreign Reporting - The Washington Post</title>
+      <link>http://feeds.washingtonpost.com.cs110.jerrycainjr.com/rss/world</link>
+    </item>
+    <item>
+      <title>Los Angeles Times - Top News</title>
+      <link>http://feeds.latimes.com.cs110.jerrycainjr.com/latimes/news</link>
+    </item>
+    <item>
+      <title>Nation &amp; World - chicagotribune.com</title>
+      <link>http://feeds.chicagotribune.com.cs110.jerrycainjr.com/chicagotribune/news/nationworld</link>
+    </item>
+    <item>
+      <title>National News - San Francisco Chronicle</title>
+      <link>http://www.sfgate.com.cs110.jerrycainjr.com/rss/feed/National-News-RSS-Feed-435.php</link>
+    </item>
+    <item>
+      <title>Nation &amp; World - Seattle Times</title>
+      <link>http://seattletimes.com.cs110.jerrycainjr.com/rss/nationworld.xml</link>
+    </item>
+  </channel>
+</rss>
