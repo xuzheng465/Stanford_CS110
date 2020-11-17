@@ -1,5 +1,7 @@
 # Stanford_CS110
 
+[Course website](https://web.stanford.edu/class/cs110/)
+
 Get from [this Repo](https://github.com/sauronalexander/cs110-1), and extract the starter code.
 
 - [ ] Assignment 1
