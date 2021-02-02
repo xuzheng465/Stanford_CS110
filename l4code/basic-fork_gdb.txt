@@ -1,0 +1,68 @@
+$ gdb basic-fork
+The target architecture is assumed to be i386:x86-64
+Reading symbols from basic-fork...done.
+(gdb) set detach-on-fork off
+(gdb) b 17
+Breakpoint 1 at 0x400b61: file basic-fork.c, line 17.
+(gdb) run
+Starting program: /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork
+Greetings from process 11750! (parent 11748)
+
+Breakpoint 1, main (argc=1, argv=0x7fffffffea08) at basic-fork.c:17
+17    pid_t pid = fork();
+(gdb) info inferior
+  Num  Description       Executable
+* 1    process 11750     /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork
+(gdb) n
+[New process 11754]
+Reading symbols from /usr/lib/debug/lib/x86_64-linux-gnu/libc-2.23.so...done.
+Reading symbols from /usr/lib/debug/lib/x86_64-linux-gnu/ld-2.23.so...done.
+18    exitIf(pid == -1, kForkFailed, stderr, "fork function failed.\n");
+(gdb) info inferior
+  Num  Description       Executable
+* 1    process 11750     /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork
+  2    process 11754     /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork
+(gdb) n
+19    printf("Bye-bye from process %d! (parent %d)\n", getpid(), getppid());
+(gdb) n
+Bye-bye from process 11750! (parent 11748)
+20    return 0;
+(gdb) info inferior
+  Num  Description       Executable
+* 1    process 11750     /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork
+  2    process 11754     /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork
+(gdb) inferior 2
+[Switching to inferior 2 [process 11754] (/afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork)]
+[Switching to thread 2.1 (process 11754)]
+#0  0x00007ffff7ad941a in __libc_fork () at ../sysdeps/nptl/fork.c:145
+145 ../sysdeps/nptl/fork.c: No such file or directory.
+(gdb) where
+#0  0x00007ffff7ad941a in __libc_fork () at ../sysdeps/nptl/fork.c:145
+#1  0x0000000000400b66 in main (argc=1, argv=0x7fffffffea08) at basic-fork.c:17
+(gdb) finish
+Run till exit from #0  0x00007ffff7ad941a in __libc_fork () at ../sysdeps/nptl/fork.c:145
+0x0000000000400b66 in main (argc=1, argv=0x7fffffffea08) at basic-fork.c:17
+17    pid_t pid = fork();
+Value returned is $1 = 0
+(gdb) n
+18    exitIf(pid == -1, kForkFailed, stderr, "fork function failed.\n");
+(gdb) n
+19    printf("Bye-bye from process %d! (parent %d)\n", getpid(), getppid());
+(gdb) n
+Bye-bye from process 11754! (parent 11750)
+20    return 0;
+(gdb) detach inferior 1
+Detaching from program: /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork, process 11750
+(gdb) info inferior
+  Num  Description       Executable
+* 1    <null>            /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork
+  2    process 11754     /afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork
+(gdb) inferior 2
+[Switching to inferior 2 [process 11754] (/afs/.ir.stanford.edu/users/c/g/cgregg/cs110/winter-2019/lecture-examples/processes/basic-fork)]
+[Switching to thread 2.1 (process 11754)]
+#0  main (argc=1, argv=0x7fffffffea08) at basic-fork.c:20
+20    return 0;
+(gdb) cont
+Continuing.
+[Inferior 2 (process 11754) exited normally]
+(gdb)

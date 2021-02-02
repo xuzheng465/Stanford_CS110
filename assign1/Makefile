@@ -1,7 +1,7 @@
 # CS110 search Makefile Hooks
 
 PROGS = search imdbtest
-CXX = /usr/bin/g++-5
+CXX = /usr/bin/g++
 
 CXX_WARNINGS = -Wall -pedantic -Wno-vla
 CXX_DEPS = -MMD -MF $(@:.o=.d)
