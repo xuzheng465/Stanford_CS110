@@ -13,7 +13,7 @@ Get from [this Repo](https://github.com/sauronalexander/cs110-1), and extract th
 - [ ] Assignment 7
 - [ ] Assignment 8
 
-## Keng (Problem) in Assignment 1
+## Promblem in Assignment 1
 
 When I tried to run imdbtest_soln, it can not find data directory. 
 
